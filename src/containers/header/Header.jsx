@@ -15,15 +15,16 @@ const Header = () => {
           <input type='email' placeholder='your email Address'></input>
           <button type='button'>Get Started</button>
         </div>
-        <div className='gt3__header-content__prople'>
-          <img src={people}  alt='people'/>
-          <p>1600 have requested access</p>
+        <div className='gpt3__header-content__people'>
+          <img src={people} alt='people' />
+          <p>1600 have requested access through the portal</p>
         </div>
 
-        <div className='gpt3__header-image'>
-          <img src={ai}/>
-        </div>
 
+
+      </div>
+      <div className='gpt3__header-image'>
+        <img src={ai} />
       </div>
     </div>
   )
